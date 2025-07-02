@@ -1,0 +1,19 @@
+
+## Ethical Considerations
+
+1. **Legal Compliance**: Only use this toolkit on systems you own or have explicit permission to test.
+2. **Disclosure**: Always report vulnerabilities responsibly to system owners.
+3. **Safety**: Some modules (like brute forcing) can disrupt services - use carefully in production environments.
+4. **Privacy**: Don't store sensitive data from tests longer than necessary.
+
+## Extensibility
+
+The toolkit is designed to be easily extended:
+
+1. Add new modules to the `modules/` directory
+2. Create new utility functions in `utils/`
+3. Extend the CLI interface in `ptt.py`
+
+Each module should follow the pattern of having a clear interface and using the shared logging/reporting utilities.
+
+This toolkit provides a solid foundation for penetration testing activities while maintaining modularity and extensibility. Always remember to use such tools ethically and legally.
